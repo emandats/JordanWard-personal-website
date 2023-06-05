@@ -1,0 +1,58 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: #FAF5E9;
+    box-shadow: 0px 4px 10px 5px rgb(0 0 0 / 10%);
+}
+
+nav-bar-item {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .55);
+}
+
+.nav-bar-menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 1000px;
+}
+
+.nav-bar a {
+    float: left;
+    color: #4C061D;
+    text-align: center;
+    padding: 16px 10px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+
+.even-container {
+    background: #FAF5E9;
+    color: black;
+}
+
+/* Covers everything around the body of the website */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #F2E9E4;
+    color: #22223B;
+}
+
+.container {
+    font-size: 18px;
+}
+
+nav_bar a.split {
+    float: left;
+    padding: 10px 10px;
+
+}
